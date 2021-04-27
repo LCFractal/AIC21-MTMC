@@ -15,7 +15,7 @@ Make sure the data structure is like:
 
 > **[AIC21-MTMC](https://drive.google.com/drive/folders/11616Gomc7MbjbgWrDruL26TGi9JNCAAE?usp=sharing)**
 >   * datasets
->     * [AIC21_Track3_MTMC_Tracking](https://www.aicitychallenge.org/)
+>     * [AIC21_Track3_MTMC_Tracking](https://www.aicitychallenge.org/2021-data-and-evaluation/)
 >       * unzip AIC21_Track3_MTMC_Tracking.zip
 >     * detect_provided (Including detection and corresponding Re-ID features)
 >   * detector

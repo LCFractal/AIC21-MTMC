@@ -9,13 +9,13 @@ $ pip install -r requirements.txt
 
 ## Data Preparation
 If you want to reproduce our results on AI City Challengef,
-please download the data set from: (https://www.aicitychallenge.org/)
+please download the datasets from: (https://www.aicitychallenge.org/)
 and put it under the folder datasets.
 Make sure the data structure is like:
 
 > **[AIC21-MTMC](https://drive.google.com/drive/folders/11616Gomc7MbjbgWrDruL26TGi9JNCAAE?usp=sharing)**
 >   * datasets
->     * AIC21_Track3_MTMC_Tracking
+>     * [AIC21_Track3_MTMC_Tracking](https://www.aicitychallenge.org/)
 >       * unzip AIC21_Track3_MTMC_Tracking.zip
 >     * detect_provided (Including detection and corresponding Re-ID features)
 >   * detector

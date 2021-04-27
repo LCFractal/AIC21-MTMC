@@ -1,0 +1,6 @@
+DET_SOURCE_DIR: '/home/xxx/AIC21-MTMC/datasets/detection/images/test/S06/'
+REID_MODEL: 'reid_model/resnext101_ibn_a_2.pth'
+REID_BACKBONE: 'resnext101_ibn_a'
+DET_IMG_DIR: '/home/xxx/AIC21-MTMC/datasets/detect_merge/'
+DATA_DIR: '/home/xxx/AIC21-MTMC/datasets/detect_reid2/'
+REID_SIZE_TEST: [384, 384]

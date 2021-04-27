@@ -1,0 +1,50 @@
+MODEL:
+  PRETRAIN_CHOICE: 'self'
+  METRIC_LOSS_TYPE: 'triplet'
+  IF_LABELSMOOTH: 'off'
+  IF_WITH_CENTER: 'no'
+  NAME: 'resnet50_ibn_a'
+  NO_MARGIN: True
+  DEVICE_ID: ('1')
+
+INPUT:
+  SIZE_TRAIN: [256, 256]
+  SIZE_TEST: [256, 256]
+  PROB: 0.5 # random horizontal flip
+  RE_PROB: 0.5 # random erasing
+  PADDING: 10
+
+DATASETS:
+  NAMES: ('aic_sim')
+  PLUS_NUM_ID: 100
+
+DATALOADER:
+  SAMPLER: 'softmax_triplet'
+  NUM_INSTANCE: 8
+  NUM_WORKERS: 8
+
+SOLVER:
+  OPTIMIZER_NAME: 'SGD'
+  MAX_EPOCHS: 60
+  BASE_LR: 0.01
+  IMS_PER_BATCH: 96
+  STEPS: [30, 50]
+  GAMMA: 0.1
+  WARMUP_FACTOR: 0.01
+  WARMUP_EPOCHS: 10
+  WARMUP_METHOD: 'linear'
+  LARGE_FC_LR: False
+  CHECKPOINT_PERIOD: 60
+  LOG_PERIOD: 200
+  EVAL_PERIOD: 10
+  FP16_ENABLED: True
+
+TEST:
+  IMS_PER_BATCH: 128
+  RE_RANKING: False
+  RE_RANKING_TRACK: True
+  NECK_FEAT: 'after'
+  FEAT_NORM: 'yes'
+  FLIP_FEATS: 'yes'
+  EVAL: True
+OUTPUT_DIR: './exp'

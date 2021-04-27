@@ -1,0 +1,8 @@
+__pycache__/
+exp/
+*.mp4
+*.avi
+*.pt
+*.pth
+*.png
+*.pkl

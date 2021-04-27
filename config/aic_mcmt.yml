@@ -1,0 +1,10 @@
+CHALLENGE_DATA_DIR: '/home/xxx/AIC21-MTMC/datasets/AIC21_Track3_MTMC_Tracking/'
+DET_SOURCE_DIR: '/home/xxx/AIC21-MTMC/datasets/detection/images/test/S06/'
+DATA_DIR: '/home/xxx/AIC21-MTMC/datasets/detect_provided'
+REID_SIZE_TEST: [384, 384]
+ROI_DIR: '/home/xxx/AIC21-MTMC/datasets/AIC21_Track3_MTMC_Tracking/test/S06/'
+CID_BIAS_DIR: '/home/xxx/AIC21-MTMC/datasets/AIC21_Track3_MTMC_Tracking/cam_timestamp/'
+USE_RERANK: True
+USE_FF: True
+SCORE_THR: 0.1
+MCMT_OUTPUT_TXT: 'track3.txt'

@@ -61,8 +61,9 @@ detector/yolov5/yolov5x.pt
 reid/reid_model/resnet101_ibn_a_2.pth
 reid/reid_model/resnet101_ibn_a_3.pth
 reid/reid_model/resnext101_ibn_a_2.pth
-# You can refer to [Track2](https://github.com/michuanhaohao/AICITY2021_Track2_DMT) to retrain the reid model
 ```
+You can refer to [Track2](https://github.com/michuanhaohao/AICITY2021_Track2_DMT) to retrain the reid model.
+
 Then modify yml:
 ```
 config/aic_all.yml

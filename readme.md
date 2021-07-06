@@ -84,8 +84,7 @@ If you find our work useful in your research, please consider citing:
 @inproceedings{liu2021city,
   title={City-scale multi-camera vehicle tracking guided by crossroad zones},
   author={Liu, Chong and Zhang, Yuqi and Luo, Hao and Tang, Jiasheng and Chen, Weihua and Xu, Xianzhe and Wang, Fan and Li, Hao and Shen, Yi-Dong},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={4129--4137},
+  booktitle={Proc. CVPR Workshops},
   year={2021}
 }
 ```

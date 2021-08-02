@@ -56,7 +56,7 @@ def draw_bboxes(img, bbox, identities=None, offset=(0, 0)):
 
 def viz_mcmt(args,cam,cam_track):
     print("start cam:{}".format(cam))
-    cam_dir = os.path.join(args.data_path,'mcmt','S06','c0{}'.format(cam))
+    cam_dir = os.path.join(args.data_path,'test','S06','c0{}'.format(cam))
     cap = cv2.VideoCapture(os.path.join(cam_dir,"vdo.avi"))
     out_dit = os.path.join(args.output_path,'mcmt','S06')
     img_dir = os.path.join(args.output_path,'mcmt','S06','imgs')

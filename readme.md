@@ -8,7 +8,7 @@ $ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-If you want to reproduce our results on AI City Challengef,
+If you want to reproduce our results on AI City Challenge,
 please download the datasets from: (https://www.aicitychallenge.org/)
 and put it under the folder datasets.
 Make sure the data structure is like:
